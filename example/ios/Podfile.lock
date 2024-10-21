@@ -1,0 +1,61 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_digit_recognizer (0.0.1):
+    - Flutter
+  - integration_test (0.0.1):
+    - Flutter
+  - TensorFlowLiteC (2.12.0):
+    - TensorFlowLiteC/Core (= 2.12.0)
+  - TensorFlowLiteC/Core (2.12.0)
+  - TensorFlowLiteC/CoreML (2.12.0):
+    - TensorFlowLiteC/Core
+  - TensorFlowLiteC/Metal (2.12.0):
+    - TensorFlowLiteC/Core
+  - TensorFlowLiteSwift (2.12.0):
+    - TensorFlowLiteSwift/Core (= 2.12.0)
+  - TensorFlowLiteSwift/Core (2.12.0):
+    - TensorFlowLiteC (= 2.12.0)
+  - TensorFlowLiteSwift/CoreML (2.12.0):
+    - TensorFlowLiteC/CoreML (= 2.12.0)
+    - TensorFlowLiteSwift/Core (= 2.12.0)
+  - TensorFlowLiteSwift/Metal (2.12.0):
+    - TensorFlowLiteC/Metal (= 2.12.0)
+    - TensorFlowLiteSwift/Core (= 2.12.0)
+  - tflite_flutter (0.0.1):
+    - Flutter
+    - TensorFlowLiteSwift (= 2.12.0)
+    - TensorFlowLiteSwift/CoreML (= 2.12.0)
+    - TensorFlowLiteSwift/Metal (= 2.12.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_digit_recognizer (from `.symlinks/plugins/flutter_digit_recognizer/ios`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - tflite_flutter (from `.symlinks/plugins/tflite_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - TensorFlowLiteC
+    - TensorFlowLiteSwift
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_digit_recognizer:
+    :path: ".symlinks/plugins/flutter_digit_recognizer/ios"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  tflite_flutter:
+    :path: ".symlinks/plugins/tflite_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_digit_recognizer: 40e62dc1f24372d5332b21ee2e7d3fdaf8a319ca
+  integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
+  TensorFlowLiteC: 20785a69299185a379ba9852b6625f00afd7984a
+  TensorFlowLiteSwift: 3a4928286e9e35bdd3e17970f48e53c80d25e793
+  tflite_flutter: 9433d086a3060431bbc9f3c7c20d017db0e72d08
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.15.2
