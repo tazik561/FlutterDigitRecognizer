@@ -7,6 +7,9 @@
 
 A Flutter library for recognizing handwritten digits using a pre-trained model based on the MNIST dataset. This library provides an easy-to-use interface for integrating digit recognition capabilities into your Flutter applications.
 
+![](https://raw.githubusercontent.com/tazik561/FlutterDigitRecognizer/master/assets/android_demo.gif?raw=true)
+![](https://raw.githubusercontent.com/tazik561/FlutterDigitRecognizer/master/assets/ios_demo.gif?raw=true)
+
 ## Background
 
 I created this library to provide an efficient and user-friendly way to incorporate digit recognition into Flutter applications. The model is trained on the MNIST dataset, which includes a vast collection of handwritten digits, ensuring accurate predictions for users.
